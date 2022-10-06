@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <style>
+        #wrapper-element{
+            margin-top: 12px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .card {
+            border: 1px solid black;
+            margin-right: 12px;
+            margin-top: 12px;
+            padding: 20px;
+            border-radius: 12px;
+            width: 40%;
+        }
+    </style>
+
+    <title>Tugas Modul 1</title>
 </head>
 <body>
-    
+    <h2>Google Tekkom</h2>
+    <p>search based on name</p>
+    <input id="input-search" type="text" onkeyup="filterData(this)">
+    <div id="wrapper-element">
+
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
